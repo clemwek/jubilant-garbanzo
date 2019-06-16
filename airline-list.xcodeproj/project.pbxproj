@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		EB6D8C3B22B2D866002A0849 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6D8C3A22B2D866002A0849 /* AppDelegate.swift */; };
-		EB6D8C3D22B2D866002A0849 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6D8C3C22B2D866002A0849 /* ViewController.swift */; };
+		EB6D8C3D22B2D866002A0849 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6D8C3C22B2D866002A0849 /* LoginViewController.swift */; };
 		EB6D8C4022B2D866002A0849 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB6D8C3E22B2D866002A0849 /* Main.storyboard */; };
 		EB6D8C4222B2D867002A0849 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB6D8C4122B2D867002A0849 /* Assets.xcassets */; };
 		EB6D8C4522B2D867002A0849 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB6D8C4322B2D867002A0849 /* LaunchScreen.storyboard */; };
 		EB6D8C5022B2D867002A0849 /* airline_listTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6D8C4F22B2D867002A0849 /* airline_listTests.swift */; };
 		EB6D8C5B22B2D867002A0849 /* airline_listUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6D8C5A22B2D867002A0849 /* airline_listUITests.swift */; };
+		EB8AA45022B3A04C00A6BF3D /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8AA44F22B3A04C00A6BF3D /* NetworkClient.swift */; };
+		EBD324A622B5E38000F9374B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD324A522B5E38000F9374B /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		EB6D8C3722B2D866002A0849 /* airline-list.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "airline-list.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB6D8C3A22B2D866002A0849 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EB6D8C3C22B2D866002A0849 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB6D8C3C22B2D866002A0849 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		EB6D8C3F22B2D866002A0849 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB6D8C4122B2D867002A0849 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB6D8C4422B2D867002A0849 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		EB6D8C5622B2D867002A0849 /* airline-listUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "airline-listUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB6D8C5A22B2D867002A0849 /* airline_listUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = airline_listUITests.swift; sourceTree = "<group>"; };
 		EB6D8C5C22B2D867002A0849 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB8AA44F22B3A04C00A6BF3D /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		EBD324A522B5E38000F9374B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +101,10 @@
 		EB6D8C3922B2D866002A0849 /* airline-list */ = {
 			isa = PBXGroup;
 			children = (
+				EBD324A422B5E33E00F9374B /* SupportingFiles */,
+				EB8AA44E22B3A01B00A6BF3D /* Networking */,
 				EB6D8C3A22B2D866002A0849 /* AppDelegate.swift */,
-				EB6D8C3C22B2D866002A0849 /* ViewController.swift */,
+				EB6D8C3C22B2D866002A0849 /* LoginViewController.swift */,
 				EB6D8C3E22B2D866002A0849 /* Main.storyboard */,
 				EB6D8C4122B2D867002A0849 /* Assets.xcassets */,
 				EB6D8C4322B2D867002A0849 /* LaunchScreen.storyboard */,
@@ -123,6 +129,22 @@
 				EB6D8C5C22B2D867002A0849 /* Info.plist */,
 			);
 			path = "airline-listUITests";
+			sourceTree = "<group>";
+		};
+		EB8AA44E22B3A01B00A6BF3D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				EB8AA44F22B3A04C00A6BF3D /* NetworkClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		EBD324A422B5E33E00F9374B /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				EBD324A522B5E38000F9374B /* Constants.swift */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +278,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB6D8C3D22B2D866002A0849 /* ViewController.swift in Sources */,
+				EB6D8C3D22B2D866002A0849 /* LoginViewController.swift in Sources */,
 				EB6D8C3B22B2D866002A0849 /* AppDelegate.swift in Sources */,
+				EB8AA45022B3A04C00A6BF3D /* NetworkClient.swift in Sources */,
+				EBD324A622B5E38000F9374B /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +457,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2TAY6TRFW;
 				INFOPLIST_FILE = "airline-list/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +475,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2TAY6TRFW;
 				INFOPLIST_FILE = "airline-list/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
