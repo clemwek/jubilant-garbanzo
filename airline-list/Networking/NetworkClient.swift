@@ -63,7 +63,7 @@ class NetworkClient {
   func post(url: String,
             headers: [String: String],
             data: [String: String]?,
-            completion: @escaping (_ succes: Bool, _ data: Any?) -> (Void)) {
+            completion: @escaping (_ succes: Bool, _ data: Data?) -> (Void)) {
     
     let postData = NSMutableData(data: "client_id=\(Constants.clientKey)&client_secret=\(Constants.clientSecret)&grant_type=\(Constants.grantType)".data(using: .utf8)!)
     let request = NSMutableURLRequest(url: NSURL(string: "https://api.lufthansa.com/v1/oauth/token")! as URL,
@@ -79,17 +79,25 @@ class NetworkClient {
         print("Network error: \(error!)")
         return completion(false, nil)
       } else {
-        let httpResponse = response as? HTTPURLResponse
-        print(httpResponse!)
-        
-        do {
-          let json = try JSONSerialization.jsonObject(with: data!, options: .allowFragments)
-          print(json)
-          return completion(true, json)
-        } catch {
-          print("Json Error: \(error)")
+//        let httpResponse = response as? HTTPURLResponse
+        guard
+          let statusCode = (response as? HTTPURLResponse)?.statusCode
+          else { return }
+        if String(statusCode).first != "2" {
+          print("Server error: =====?>>")
           return completion(false, nil)
         }
+        
+        return completion(true, data)
+        
+//        do {
+//          print("Server data: \(data)")
+//          let json = try JSONSerialization.jsonObject(with: data!, options: .allowFragments) as? [String: String]
+//          return completion(true, json)
+//        } catch {
+//          print("Json Error: \(error)")
+//          return completion(false, nil)
+//        }
         
       }
     })

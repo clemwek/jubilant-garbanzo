@@ -36,66 +36,38 @@
                         <viewLayoutGuide key="safeArea" id="W11-TO-MW5"/>
                     </view>
                     <connections>
-                        <segue destination="8GB-6O-4TQ" kind="show" identifier="loginSegue" id="0zK-Bo-v4z"/>
+                        <segue destination="8sz-nR-VJx" kind="show" identifier="loginSegue" id="sRK-JV-REw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ldK-1j-dfo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="89.855072463768124" y="120.53571428571428"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="Bvj-iL-TTL">
+        <!--Schedule View Controller-->
+        <scene sceneID="a8i-oo-XFF">
             <objects>
-                <viewController id="8GB-6O-4TQ" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="hE8-Ww-NpI">
+                <viewController id="8sz-nR-VJx" customClass="ScheduleViewController" customModule="airline_list" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Rni-ck-hLS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Origin " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5zb-kg-94s">
-                                <rect key="frame" x="20" y="169" width="374" height="52"/>
-                                <nil key="textColor"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w4G-02-7HW">
+                                <rect key="frame" x="128" y="428" width="161" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Destination" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="48e-ts-ESA">
-                                <rect key="frame" x="20" y="300" width="374" height="52"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sxF-HC-Q0F">
-                                <rect key="frame" x="126" y="623" width="168" height="50"/>
-                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="5fE-Ky-cKS"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <state key="normal" title="View">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
+                                <state key="normal" title="Schedule"/>
                                 <connections>
-                                    <segue destination="7ZX-tf-3gf" kind="show" id="8vo-aq-Ntq"/>
+                                    <action selector="getSchedule:" destination="8sz-nR-VJx" eventType="touchUpInside" id="sfl-Rg-xn4"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="5zb-kg-94s" firstAttribute="trailing" secondItem="48e-ts-ESA" secondAttribute="trailing" id="DoQ-sE-dq1"/>
-                            <constraint firstItem="hTq-Bv-pBC" firstAttribute="bottom" secondItem="sxF-HC-Q0F" secondAttribute="bottom" constant="189" id="PJ5-Of-1Uy"/>
-                            <constraint firstItem="5zb-kg-94s" firstAttribute="top" secondItem="hTq-Bv-pBC" secondAttribute="top" constant="125" id="Txl-nB-t9a"/>
-                            <constraint firstItem="5zb-kg-94s" firstAttribute="leading" secondItem="hE8-Ww-NpI" secondAttribute="leadingMargin" id="aAl-EB-vtk"/>
-                            <constraint firstItem="48e-ts-ESA" firstAttribute="top" secondItem="5zb-kg-94s" secondAttribute="bottom" constant="79" id="egT-Sx-6kh"/>
-                            <constraint firstItem="5zb-kg-94s" firstAttribute="leading" secondItem="48e-ts-ESA" secondAttribute="leading" id="n3A-Nk-7vK"/>
-                            <constraint firstItem="hTq-Bv-pBC" firstAttribute="trailing" secondItem="sxF-HC-Q0F" secondAttribute="trailing" constant="120" id="oJq-Ic-heE"/>
-                            <constraint firstItem="5zb-kg-94s" firstAttribute="trailing" secondItem="hE8-Ww-NpI" secondAttribute="trailingMargin" id="pGr-uN-qeX"/>
-                            <constraint firstItem="sxF-HC-Q0F" firstAttribute="leading" secondItem="hTq-Bv-pBC" secondAttribute="leading" constant="126" id="wUh-vg-f32"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="hTq-Bv-pBC"/>
+                        <viewLayoutGuide key="safeArea" id="zdb-gu-Kws"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="16K-XZ-v2O" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LvO-PN-4Gy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="893" y="121"/>
+            <point key="canvasLocation" x="930" y="121"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="fhP-ci-2fd">

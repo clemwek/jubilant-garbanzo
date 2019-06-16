@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB25591122B6A205005547F5 /* Credencials.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB25591022B6A205005547F5 /* Credencials.swift */; };
 		EB6D8C3B22B2D866002A0849 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6D8C3A22B2D866002A0849 /* AppDelegate.swift */; };
 		EB6D8C3D22B2D866002A0849 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6D8C3C22B2D866002A0849 /* LoginViewController.swift */; };
 		EB6D8C4022B2D866002A0849 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB6D8C3E22B2D866002A0849 /* Main.storyboard */; };
@@ -16,6 +17,9 @@
 		EB6D8C5B22B2D867002A0849 /* airline_listUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6D8C5A22B2D867002A0849 /* airline_listUITests.swift */; };
 		EB8AA45022B3A04C00A6BF3D /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8AA44F22B3A04C00A6BF3D /* NetworkClient.swift */; };
 		EBD324A622B5E38000F9374B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD324A522B5E38000F9374B /* Constants.swift */; };
+		EBEED72522B6493F0025B677 /* Countries.json in Resources */ = {isa = PBXBuildFile; fileRef = EBEED72422B6493F0025B677 /* Countries.json */; };
+		EBEED72722B64BE70025B677 /* Airports.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEED72622B64BE70025B677 /* Airports.swift */; };
+		EBEED72922B64DC60025B677 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEED72822B64DC60025B677 /* ScheduleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB25591022B6A205005547F5 /* Credencials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credencials.swift; sourceTree = "<group>"; };
 		EB6D8C3722B2D866002A0849 /* airline-list.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "airline-list.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB6D8C3A22B2D866002A0849 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB6D8C3C22B2D866002A0849 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +56,9 @@
 		EB6D8C5C22B2D867002A0849 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB8AA44F22B3A04C00A6BF3D /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
 		EBD324A522B5E38000F9374B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EBEED72422B6493F0025B677 /* Countries.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Countries.json; sourceTree = "<group>"; };
+		EBEED72622B64BE70025B677 /* Airports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airports.swift; sourceTree = "<group>"; };
+		EBEED72822B64DC60025B677 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +86,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EB25590F22B6A176005547F5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EB25591022B6A205005547F5 /* Credencials.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		EB6D8C2E22B2D866002A0849 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +117,7 @@
 		EB6D8C3922B2D866002A0849 /* airline-list */ = {
 			isa = PBXGroup;
 			children = (
+				EB25590F22B6A176005547F5 /* Models */,
 				EBD324A422B5E33E00F9374B /* SupportingFiles */,
 				EB8AA44E22B3A01B00A6BF3D /* Networking */,
 				EB6D8C3A22B2D866002A0849 /* AppDelegate.swift */,
@@ -109,6 +126,7 @@
 				EB6D8C4122B2D867002A0849 /* Assets.xcassets */,
 				EB6D8C4322B2D867002A0849 /* LaunchScreen.storyboard */,
 				EB6D8C4622B2D867002A0849 /* Info.plist */,
+				EBEED72822B64DC60025B677 /* ScheduleViewController.swift */,
 			);
 			path = "airline-list";
 			sourceTree = "<group>";
@@ -143,6 +161,8 @@
 			isa = PBXGroup;
 			children = (
 				EBD324A522B5E38000F9374B /* Constants.swift */,
+				EBEED72422B6493F0025B677 /* Countries.json */,
+				EBEED72622B64BE70025B677 /* Airports.swift */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
@@ -253,6 +273,7 @@
 			files = (
 				EB6D8C4522B2D867002A0849 /* LaunchScreen.storyboard in Resources */,
 				EB6D8C4222B2D867002A0849 /* Assets.xcassets in Resources */,
+				EBEED72522B6493F0025B677 /* Countries.json in Resources */,
 				EB6D8C4022B2D866002A0849 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +301,9 @@
 			files = (
 				EB6D8C3D22B2D866002A0849 /* LoginViewController.swift in Sources */,
 				EB6D8C3B22B2D866002A0849 /* AppDelegate.swift in Sources */,
+				EBEED72722B64BE70025B677 /* Airports.swift in Sources */,
+				EB25591122B6A205005547F5 /* Credencials.swift in Sources */,
+				EBEED72922B64DC60025B677 /* ScheduleViewController.swift in Sources */,
 				EB8AA45022B3A04C00A6BF3D /* NetworkClient.swift in Sources */,
 				EBD324A622B5E38000F9374B /* Constants.swift in Sources */,
 			);

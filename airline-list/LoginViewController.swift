@@ -20,12 +20,18 @@ class LoginViewController: UIViewController {
                                 headers: header,
                                 data: nil) { status, data in
       if status {
-        if let data = data as? [String: String],
-          let token = data["access_token"] {
-          self.defaults.set(token, forKey: "token")   
-        }
-        DispatchQueue.main.async {
-          self.performSegue(withIdentifier: "loginSegue", sender: nil)
+        if let data = data {
+          print("Test data: \(data)", "type of: \(type(of: data))")
+          let credDecoder = JSONDecoder()
+          do {
+            let credResults = try credDecoder.decode(Credencials.self, from: data)
+            self.defaults.set(credResults.accessToken, forKey: "token")
+            DispatchQueue.main.async {
+              self.performSegue(withIdentifier: "loginSegue", sender: nil)
+            }
+          } catch {
+            print("Failed to decode!")
+          }
         }
       }
     }
