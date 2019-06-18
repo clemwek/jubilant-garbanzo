@@ -9,7 +9,7 @@
 import Foundation
 
 struct Constants {
-  static let clientKey = "np5zd484un7c3ruh2nbfzuhk"
-  static let clientSecret = "z8MYCnHeE6"
+  static let clientKey = "76tmu6fu3gejspxk3942dt55"
+  static let clientSecret = "W9YNySqjKs"
   static let grantType = "client_credentials"
 }

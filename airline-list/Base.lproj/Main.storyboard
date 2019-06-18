@@ -60,14 +60,32 @@
                                     <action selector="getSchedule:" destination="8sz-nR-VJx" eventType="touchUpInside" id="sfl-Rg-xn4"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JMn-Kz-N93">
+                                <rect key="frame" x="20" y="53" width="374" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AHq-hk-N9G">
+                                <rect key="frame" x="35" y="254" width="359" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="zdb-gu-Kws"/>
                     </view>
+                    <connections>
+                        <outlet property="destination" destination="AHq-hk-N9G" id="Fdj-bA-Me7"/>
+                        <outlet property="originPicker" destination="JMn-Kz-N93" id="UOW-6y-Y1I"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LvO-PN-4Gy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="930" y="121"/>
+            <point key="canvasLocation" x="928.98550724637687" y="120.53571428571428"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="fhP-ci-2fd">

@@ -23,7 +23,7 @@ class NetworkClient {
     
     let relativeURL = URL(string: baseURL + url)
     
-    let postData = NSMutableData(data: "client_id=\(Constants.clientKey)&client_secret=\(Constants.clientSecret)&grant_type=\(Constants.grantType)".data(using: .utf8)!)
+    let postData = NSMutableData(data: "Authorization=Bearer \(defaults.string(forKey: "token"))&Accept=application/json&Content-Type=application/json".data(using: .utf8)!)
     let request = NSMutableURLRequest(url: relativeURL!,
                                       cachePolicy: .useProtocolCachePolicy,
                                       timeoutInterval: 100.0)

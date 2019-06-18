@@ -1,0 +1,946 @@
+{
+  "AirportResource": {
+    "Airports": {
+      "Airport": [
+        {
+          "AirportCode": "AAL",
+          "Position": {
+            "Coordinate": {
+              "Latitude": 57.0928,
+              "Longitude": 9.8492
+            }
+          },
+          "CityCode": "AAL",
+          "CountryCode": "DK",
+          "LocationType": "Airport",
+          "Names": {
+            "Name": [
+              {
+                "@LanguageCode": "xx",
+                "$": "Aalborg"
+              },
+              {
+                "@LanguageCode": "de",
+                "$": "Aalborg"
+              },
+              {
+                "@LanguageCode": "ru",
+                "$": "Ольборг"
+              },
+              {
+                "@LanguageCode": "pt",
+                "$": "Aalborg"
+              },
+              {
+                "@LanguageCode": "jp",
+                "$": "オールボア"
+              },
+              {
+                "@LanguageCode": "kr",
+                "$": "올보르그"
+              },
+              {
+                "@LanguageCode": "en",
+                "$": "Aalborg"
+              },
+              {
+                "@LanguageCode": "it",
+                "$": "Aalborg"
+              },
+              {
+                "@LanguageCode": "fr",
+                "$": "Aalborg"
+              },
+              {
+                "@LanguageCode": "es",
+                "$": "Aalborg"
+              },
+              {
+                "@LanguageCode": "ka",
+                "$": "奧爾堡"
+              },
+              {
+                "@LanguageCode": "pl",
+                "$": "Aalbork"
+              },
+              {
+                "@LanguageCode": "mi",
+                "$": "奥尔堡"
+              }
+            ]
+          },
+          "UtcOffset": 2,
+          "TimeZoneId": "Europe/Copenhagen"
+        },
+        {
+          "AirportCode": "AAR",
+          "Position": {
+            "Coordinate": {
+              "Latitude": 56.3039,
+              "Longitude": 10.6194
+            }
+          },
+          "CityCode": "AAR",
+          "CountryCode": "DK",
+          "LocationType": "Airport",
+          "Names": {
+            "Name": [
+              {
+                "@LanguageCode": "xx",
+                "$": "Aarhus"
+              },
+              {
+                "@LanguageCode": "en",
+                "$": "Aarhus"
+              },
+              {
+                "@LanguageCode": "de",
+                "$": "Aarhus"
+              },
+              {
+                "@LanguageCode": "it",
+                "$": "Aarhus"
+              },
+              {
+                "@LanguageCode": "fr",
+                "$": "Aarhus"
+              },
+              {
+                "@LanguageCode": "es",
+                "$": "Aarhus"
+              }
+            ]
+          },
+          "UtcOffset": 2,
+          "TimeZoneId": "Europe/Copenhagen"
+        },
+        {
+          "AirportCode": "ABE",
+          "Position": {
+            "Coordinate": {
+              "Latitude": 40.6522,
+              "Longitude": -75.4408
+            }
+          },
+          "CityCode": "ABE",
+          "CountryCode": "US",
+          "LocationType": "Airport",
+          "Names": {
+            "Name": [
+              {
+                "@LanguageCode": "xx",
+                "$": "Allentown/Bethl"
+              },
+              {
+                "@LanguageCode": "en",
+                "$": "Allentown/Bethl"
+              },
+              {
+                "@LanguageCode": "de",
+                "$": "Allentown/Bethl"
+              },
+              {
+                "@LanguageCode": "it",
+                "$": "Allentown/Bethl"
+              },
+              {
+                "@LanguageCode": "fr",
+                "$": "Allentown/Bethl"
+              },
+              {
+                "@LanguageCode": "es",
+                "$": "Allentown/Bethl"
+              }
+            ]
+          },
+          "UtcOffset": -4,
+          "TimeZoneId": "America/New_York"
+        },
+        {
+          "AirportCode": "ABJ",
+          "Position": {
+            "Coordinate": {
+              "Latitude": 5.2614,
+              "Longitude": -3.9264
+            }
+          },
+          "CityCode": "ABJ",
+          "CountryCode": "CI",
+          "LocationType": "Airport",
+          "Names": {
+            "Name": [
+              {
+                "@LanguageCode": "xx",
+                "$": "Abidjan"
+              },
+              {
+                "@LanguageCode": "de",
+                "$": "Abidjan"
+              },
+              {
+                "@LanguageCode": "ja",
+                "$": "アビジャン"
+              },
+              {
+                "@LanguageCode": "en",
+                "$": "Abidjan"
+              },
+              {
+                "@LanguageCode": "it",
+                "$": "Abidjan"
+              },
+              {
+                "@LanguageCode": "fr",
+                "$": "Abidjan"
+              },
+              {
+                "@LanguageCode": "es",
+                "$": "Abidjan"
+              }
+            ]
+          },
+          "UtcOffset": 0,
+          "TimeZoneId": "Africa/Abidjan"
+        },
+        {
+          "AirportCode": "ABK",
+          "Position": {
+            "Coordinate": {
+              "Latitude": 6.7339,
+              "Longitude": 44.2553
+            }
+          },
+          "CityCode": "ABK",
+          "CountryCode": "ET",
+          "LocationType": "Airport",
+          "Names": {
+            "Name": [
+              {
+                "@LanguageCode": "xx",
+                "$": "Kabri Dar"
+              },
+              {
+                "@LanguageCode": "de",
+                "$": "Kabri Dar"
+              },
+              {
+                "@LanguageCode": "en",
+                "$": "Kabri Dehar"
+              },
+              {
+                "@LanguageCode": "it",
+                "$": "Kabri Dar"
+              },
+              {
+                "@LanguageCode": "fr",
+                "$": "Kabri Dar"
+              },
+              {
+                "@LanguageCode": "es",
+                "$": "Kabri Dar"
+              }
+            ]
+          },
+          "UtcOffset": 3,
+          "TimeZoneId": "Africa/Addis_Ababa"
+        },
+        {
+          "AirportCode": "ABQ",
+          "Position": {
+            "Coordinate": {
+              "Latitude": 35.0406,
+              "Longitude": -106.6094
+            }
+          },
+          "CityCode": "ABQ",
+          "CountryCode": "US",
+          "LocationType": "Airport",
+          "Names": {
+            "Name": [
+              {
+                "@LanguageCode": "xx",
+                "$": "Albuquerque International"
+              },
+              {
+                "@LanguageCode": "de",
+                "$": "Albuquerque International, NM"
+              },
+              {
+                "@LanguageCode": "ja",
+                "$": "アルバカーキ"
+              },
+              {
+                "@LanguageCode": "en",
+                "$": "Albuquerque International, NM"
+              },
+              {
+                "@LanguageCode": "it",
+                "$": "Albuquerque International, NM"
+              },
+              {
+                "@LanguageCode": "fr",
+                "$": "Albuquerque International, NM"
+              },
+              {
+                "@LanguageCode": "es",
+                "$": "Albuquerque International, NM"
+              }
+            ]
+          },
+          "UtcOffset": -6,
+          "TimeZoneId": "America/Denver"
+        },
+        {
+          "AirportCode": "ABV",
+          "Position": {
+            "Coordinate": {
+              "Latitude": 9.0067,
+              "Longitude": 7.2631
+            }
+          },
+          "CityCode": "ABV",
+          "CountryCode": "NG",
+          "LocationType": "Airport",
+          "Names": {
+            "Name": [
+              {
+                "@LanguageCode": "xx",
+                "$": "Abuja International"
+              },
+              {
+                "@LanguageCode": "de",
+                "$": "Abuja International"
+              },
+              {
+                "@LanguageCode": "en",
+                "$": "Abuja International"
+              },
+              {
+                "@LanguageCode": "it",
+                "$": "Abuja International"
+              },
+              {
+                "@LanguageCode": "fr",
+                "$": "Abuja International"
+              },
+              {
+                "@LanguageCode": "es",
+                "$": "Abuja International"
+              }
+            ]
+          },
+          "UtcOffset": 1,
+          "TimeZoneId": "Africa/Lagos"
+        },
+        {
+          "AirportCode": "ABZ",
+          "Position": {
+            "Coordinate": {
+              "Latitude": 57.2042,
+              "Longitude": -2.2003
+            }
+          },
+          "CityCode": "ABZ",
+          "CountryCode": "GB",
+          "LocationType": "Airport",
+          "Names": {
+            "Name": [
+              {
+                "@LanguageCode": "xx",
+                "$": "Aberdeen"
+              },
+              {
+                "@LanguageCode": "de",
+                "$": "Aberdeen"
+              },
+              {
+                "@LanguageCode": "en",
+                "$": "Aberdeen"
+              },
+              {
+                "@LanguageCode": "it",
+                "$": "Aberdeen"
+              },
+              {
+                "@LanguageCode": "fr",
+                "$": "Aberdeen"
+              },
+              {
+                "@LanguageCode": "es",
+                "$": "Aberdeen"
+              }
+            ]
+          },
+          "UtcOffset": 1,
+          "TimeZoneId": "Europe/London"
+        },
+        {
+          "AirportCode": "ACA",
+          "Position": {
+            "Coordinate": {
+              "Latitude": 16.7569,
+              "Longitude": -99.7539
+            }
+          },
+          "CityCode": "ACA",
+          "CountryCode": "MX",
+          "LocationType": "Airport",
+          "Names": {
+            "Name": [
+              {
+                "@LanguageCode": "xx",
+                "$": "Acapulco - Alvarez International"
+              },
+              {
+                "@LanguageCode": "de",
+                "$": "Acapulco - Alvarez International"
+              },
+              {
+                "@LanguageCode": "ja",
+                "$": "アカプルコ"
+              },
+              {
+                "@LanguageCode": "en",
+                "$": "Acapulco - Alvarez International"
+              },
+              {
+                "@LanguageCode": "it",
+                "$": "Acapulco - Alvarez International"
+              },
+              {
+                "@LanguageCode": "fr",
+                "$": "Acapulco - Alvarez International"
+              },
+              {
+                "@LanguageCode": "es",
+                "$": "Acapulco - Alvarez International"
+              }
+            ]
+          },
+          "UtcOffset": -5,
+          "TimeZoneId": "America/Mexico_City"
+        },
+        {
+          "AirportCode": "ACC",
+          "Position": {
+            "Coordinate": {
+              "Latitude": 5.605277778,
+              "Longitude": -0.166666667
+            }
+          },
+          "CityCode": "ACC",
+          "CountryCode": "GH",
+          "LocationType": "Airport",
+          "Names": {
+            "Name": [
+              {
+                "@LanguageCode": "xx",
+                "$": "Accra"
+              },
+              {
+                "@LanguageCode": "de",
+                "$": "Accra"
+              },
+              {
+                "@LanguageCode": "en",
+                "$": "Accra - Kotoka International"
+              },
+              {
+                "@LanguageCode": "it",
+                "$": "Accra"
+              },
+              {
+                "@LanguageCode": "fr",
+                "$": "Accra"
+              },
+              {
+                "@LanguageCode": "es",
+                "$": "Accra"
+              }
+            ]
+          },
+          "UtcOffset": 0,
+          "TimeZoneId": "Africa/Accra"
+        },
+        {
+          "AirportCode": "ACE",
+          "Position": {
+            "Coordinate": {
+              "Latitude": 28.9456,
+              "Longitude": -13.6053
+            }
+          },
+          "CityCode": "ACE",
+          "CountryCode": "ES",
+          "LocationType": "Airport",
+          "Names": {
+            "Name": [
+              {
+                "@LanguageCode": "xx",
+                "$": "Lanzarote"
+              },
+              {
+                "@LanguageCode": "de",
+                "$": "Lanzarote"
+              },
+              {
+                "@LanguageCode": "en",
+                "$": "Lanzarote"
+              },
+              {
+                "@LanguageCode": "it",
+                "$": "Lanzarote"
+              },
+              {
+                "@LanguageCode": "fr",
+                "$": "Lanzarote"
+              },
+              {
+                "@LanguageCode": "es",
+                "$": "Lanzarote"
+              }
+            ]
+          },
+          "UtcOffset": 1,
+          "TimeZoneId": "Atlantic/Canary"
+        },
+        {
+          "AirportCode": "ACK",
+          "Position": {
+            "Coordinate": {
+              "Latitude": 41.2531,
+              "Longitude": -70.0603
+            }
+          },
+          "CityCode": "ACK",
+          "CountryCode": "US",
+          "LocationType": "Airport",
+          "Names": {
+            "Name": [
+              {
+                "@LanguageCode": "xx",
+                "$": "Nantucket"
+              },
+              {
+                "@LanguageCode": "de",
+                "$": "Nantucket"
+              },
+              {
+                "@LanguageCode": "en",
+                "$": "Nantucket"
+              },
+              {
+                "@LanguageCode": "it",
+                "$": "Nantucket"
+              },
+              {
+                "@LanguageCode": "fr",
+                "$": "Nantucket"
+              },
+              {
+                "@LanguageCode": "es",
+                "$": "Nantucket"
+              }
+            ]
+          },
+          "UtcOffset": -4,
+          "TimeZoneId": "America/New_York"
+        },
+        {
+          "AirportCode": "ACT",
+          "Position": {
+            "Coordinate": {
+              "Latitude": 31.6114,
+              "Longitude": -97.2306
+            }
+          },
+          "CityCode": "ACT",
+          "CountryCode": "US",
+          "LocationType": "Airport",
+          "Names": {
+            "Name": [
+              {
+                "@LanguageCode": "xx",
+                "$": "Waco Municipal"
+              },
+              {
+                "@LanguageCode": "en",
+                "$": "Waco Municipal"
+              },
+              {
+                "@LanguageCode": "de",
+                "$": "Waco Municipal"
+              },
+              {
+                "@LanguageCode": "it",
+                "$": "Waco Municipal"
+              },
+              {
+                "@LanguageCode": "fr",
+                "$": "Waco Municipal"
+              },
+              {
+                "@LanguageCode": "es",
+                "$": "Waco Municipal"
+              }
+            ]
+          },
+          "UtcOffset": -5,
+          "TimeZoneId": "America/Chicago"
+        },
+        {
+          "AirportCode": "ACV",
+          "Position": {
+            "Coordinate": {
+              "Latitude": 40.9781,
+              "Longitude": -124.1086
+            }
+          },
+          "CityCode": "ACV",
+          "CountryCode": "US",
+          "LocationType": "Airport",
+          "Names": {
+            "Name": [
+              {
+                "@LanguageCode": "xx",
+                "$": "Arcata/Eureka"
+              },
+              {
+                "@LanguageCode": "de",
+                "$": "Arcata/Eureka"
+              },
+              {
+                "@LanguageCode": "en",
+                "$": "Arcata/Eureka"
+              },
+              {
+                "@LanguageCode": "it",
+                "$": "Arcata/Eureka"
+              },
+              {
+                "@LanguageCode": "fr",
+                "$": "Arcata/Eureka"
+              },
+              {
+                "@LanguageCode": "es",
+                "$": "Arcata/Eureka"
+              }
+            ]
+          },
+          "UtcOffset": -7,
+          "TimeZoneId": "America/Los_Angeles"
+        },
+        {
+          "AirportCode": "ACY",
+          "Position": {
+            "Coordinate": {
+              "Latitude": 39.4575,
+              "Longitude": -74.5772
+            }
+          },
+          "CityCode": "AIY",
+          "CountryCode": "US",
+          "LocationType": "Airport",
+          "Names": {
+            "Name": [
+              {
+                "@LanguageCode": "xx",
+                "$": "Atlantic City - International"
+              },
+              {
+                "@LanguageCode": "en",
+                "$": "Atlantic City - International"
+              },
+              {
+                "@LanguageCode": "de",
+                "$": "Atlantic City - International"
+              },
+              {
+                "@LanguageCode": "it",
+                "$": "Atlantic City - International"
+              },
+              {
+                "@LanguageCode": "fr",
+                "$": "Atlantic City - International"
+              },
+              {
+                "@LanguageCode": "es",
+                "$": "Atlantic City - International"
+              }
+            ]
+          },
+          "UtcOffset": -4,
+          "TimeZoneId": "America/New_York"
+        },
+        {
+          "AirportCode": "ADA",
+          "Position": {
+            "Coordinate": {
+              "Latitude": 36.9822,
+              "Longitude": 35.2803
+            }
+          },
+          "CityCode": "ADA",
+          "CountryCode": "TR",
+          "LocationType": "Airport",
+          "Names": {
+            "Name": [
+              {
+                "@LanguageCode": "xx",
+                "$": "Adana"
+              },
+              {
+                "@LanguageCode": "de",
+                "$": "Adana"
+              },
+              {
+                "@LanguageCode": "ja",
+                "$": "アダナ"
+              },
+              {
+                "@LanguageCode": "en",
+                "$": "Adana"
+              },
+              {
+                "@LanguageCode": "it",
+                "$": "Adana"
+              },
+              {
+                "@LanguageCode": "fr",
+                "$": "Adana"
+              },
+              {
+                "@LanguageCode": "es",
+                "$": "Adana"
+              }
+            ]
+          },
+          "UtcOffset": 3,
+          "TimeZoneId": "Europe/Istanbul"
+        },
+        {
+          "AirportCode": "ADB",
+          "Position": {
+            "Coordinate": {
+              "Latitude": 38.2925,
+              "Longitude": 27.1569
+            }
+          },
+          "CityCode": "IZM",
+          "CountryCode": "TR",
+          "LocationType": "Airport",
+          "Names": {
+            "Name": [
+              {
+                "@LanguageCode": "xx",
+                "$": "Izmir - Adnan Menderes"
+              },
+              {
+                "@LanguageCode": "de",
+                "$": "Izmir - Adnan Menderes"
+              },
+              {
+                "@LanguageCode": "ja",
+                "$": "イズミール"
+              },
+              {
+                "@LanguageCode": "en",
+                "$": "Izmir - Adnan Menderes"
+              },
+              {
+                "@LanguageCode": "it",
+                "$": "Izmir - Adnan Menderes"
+              },
+              {
+                "@LanguageCode": "fr",
+                "$": "Izmir - Adnan Menderes"
+              },
+              {
+                "@LanguageCode": "es",
+                "$": "Izmir - Adnan Menderes"
+              }
+            ]
+          },
+          "UtcOffset": 3,
+          "TimeZoneId": "Europe/Istanbul"
+        },
+        {
+          "AirportCode": "ADD",
+          "Position": {
+            "Coordinate": {
+              "Latitude": 8.9778,
+              "Longitude": 38.7994
+            }
+          },
+          "CityCode": "ADD",
+          "CountryCode": "ET",
+          "LocationType": "Airport",
+          "Names": {
+            "Name": [
+              {
+                "@LanguageCode": "xx",
+                "$": "Addis Abeba"
+              },
+              {
+                "@LanguageCode": "de",
+                "$": "Addis Abeba"
+              },
+              {
+                "@LanguageCode": "en",
+                "$": "Addis Ababa"
+              },
+              {
+                "@LanguageCode": "it",
+                "$": "Addis Abeba"
+              },
+              {
+                "@LanguageCode": "fr",
+                "$": "Addis Abeba"
+              },
+              {
+                "@LanguageCode": "es",
+                "$": "Addis Abeba"
+              }
+            ]
+          },
+          "UtcOffset": 3,
+          "TimeZoneId": "Africa/Addis_Ababa"
+        },
+        {
+          "AirportCode": "ADK",
+          "Position": {
+            "Coordinate": {
+              "Latitude": 51.8811,
+              "Longitude": -176.6483
+            }
+          },
+          "CityCode": "ADK",
+          "CountryCode": "US",
+          "LocationType": "Airport",
+          "Names": {
+            "Name": [
+              {
+                "@LanguageCode": "xx",
+                "$": "Adak Island"
+              },
+              {
+                "@LanguageCode": "de",
+                "$": "Adak Island"
+              },
+              {
+                "@LanguageCode": "en",
+                "$": "Adak Island"
+              },
+              {
+                "@LanguageCode": "it",
+                "$": "Adak Island"
+              },
+              {
+                "@LanguageCode": "fr",
+                "$": "Adak Island"
+              },
+              {
+                "@LanguageCode": "es",
+                "$": "Adak Island"
+              }
+            ]
+          },
+          "UtcOffset": -9,
+          "TimeZoneId": "America/Adak"
+        },
+        {
+          "AirportCode": "ADL",
+          "Position": {
+            "Coordinate": {
+              "Latitude": -34.945,
+              "Longitude": 138.5306
+            }
+          },
+          "CityCode": "ADL",
+          "CountryCode": "AU",
+          "LocationType": "Airport",
+          "Names": {
+            "Name": [
+              {
+                "@LanguageCode": "xx",
+                "$": "Adelaide"
+              },
+              {
+                "@LanguageCode": "de",
+                "$": "Adelaide"
+              },
+              {
+                "@LanguageCode": "ru",
+                "$": "Аделаида"
+              },
+              {
+                "@LanguageCode": "ko",
+                "$": "애들레이드"
+              },
+              {
+                "@LanguageCode": "ka",
+                "$": "阿德萊德"
+              },
+              {
+                "@LanguageCode": "ja",
+                "$": "アデレード"
+              },
+              {
+                "@LanguageCode": "en",
+                "$": "Adelaide"
+              },
+              {
+                "@LanguageCode": "it",
+                "$": "Adelaide"
+              },
+              {
+                "@LanguageCode": "mi",
+                "$": "阿德莱德"
+              },
+              {
+                "@LanguageCode": "pl",
+                "$": "Adelaida"
+              },
+              {
+                "@LanguageCode": "fr",
+                "$": "Adélaïde"
+              },
+              {
+                "@LanguageCode": "es",
+                "$": "Adelaida"
+              }
+            ]
+          },
+          "UtcOffset": 9.5,
+          "TimeZoneId": "Australia/Adelaide"
+        }
+      ]
+    },
+    "Meta": {
+      "@Version": "1.0.0",
+      "Link": [
+        {
+          "@Href": "https://api.lufthansa.com/v1/references/airports",
+          "@Rel": "self"
+        },
+        {
+          "@Href": "https://api.lufthansa.com/v1/references/airports?offset=20&limit=20",
+          "@Rel": "next"
+        },
+        {
+          "@Href": "https://api.lufthansa.com/v1/references/airports?offset=1460&limit=20",
+          "@Rel": "last"
+        },
+        {
+          "@Href": "https://api.lufthansa.com/v1/references/cities/{cityCode}",
+          "@Rel": "related"
+        },
+        {
+          "@Href": "https://api.lufthansa.com/v1/references/countries/{countryCode}",
+          "@Rel": "related"
+        }
+      ],
+      "TotalCount": 1465
+    }
+  }
+}

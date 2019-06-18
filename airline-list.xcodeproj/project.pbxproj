@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EB25591122B6A205005547F5 /* Credencials.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB25591022B6A205005547F5 /* Credencials.swift */; };
+		EB25591122B6A205005547F5 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB25591022B6A205005547F5 /* Credentials.swift */; };
 		EB6D8C3B22B2D866002A0849 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6D8C3A22B2D866002A0849 /* AppDelegate.swift */; };
 		EB6D8C3D22B2D866002A0849 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6D8C3C22B2D866002A0849 /* LoginViewController.swift */; };
 		EB6D8C4022B2D866002A0849 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB6D8C3E22B2D866002A0849 /* Main.storyboard */; };
@@ -16,6 +16,8 @@
 		EB6D8C5022B2D867002A0849 /* airline_listTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6D8C4F22B2D867002A0849 /* airline_listTests.swift */; };
 		EB6D8C5B22B2D867002A0849 /* airline_listUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6D8C5A22B2D867002A0849 /* airline_listUITests.swift */; };
 		EB8AA45022B3A04C00A6BF3D /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8AA44F22B3A04C00A6BF3D /* NetworkClient.swift */; };
+		EB9A6A6422B987EC00B09DB3 /* Aiports.json in Resources */ = {isa = PBXBuildFile; fileRef = EB9A6A6322B987EC00B09DB3 /* Aiports.json */; };
+		EB9A6A6822B98F9600B09DB3 /* AirportResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9A6A6722B98F9600B09DB3 /* AirportResponse.swift */; };
 		EBD324A622B5E38000F9374B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD324A522B5E38000F9374B /* Constants.swift */; };
 		EBEED72522B6493F0025B677 /* Countries.json in Resources */ = {isa = PBXBuildFile; fileRef = EBEED72422B6493F0025B677 /* Countries.json */; };
 		EBEED72722B64BE70025B677 /* Airports.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEED72622B64BE70025B677 /* Airports.swift */; };
@@ -40,7 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EB25591022B6A205005547F5 /* Credencials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credencials.swift; sourceTree = "<group>"; };
+		EB25591022B6A205005547F5 /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
 		EB6D8C3722B2D866002A0849 /* airline-list.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "airline-list.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB6D8C3A22B2D866002A0849 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB6D8C3C22B2D866002A0849 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +57,8 @@
 		EB6D8C5A22B2D867002A0849 /* airline_listUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = airline_listUITests.swift; sourceTree = "<group>"; };
 		EB6D8C5C22B2D867002A0849 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB8AA44F22B3A04C00A6BF3D /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		EB9A6A6322B987EC00B09DB3 /* Aiports.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Aiports.json; sourceTree = "<group>"; };
+		EB9A6A6722B98F9600B09DB3 /* AirportResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportResponse.swift; sourceTree = "<group>"; };
 		EBD324A522B5E38000F9374B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		EBEED72422B6493F0025B677 /* Countries.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Countries.json; sourceTree = "<group>"; };
 		EBEED72622B64BE70025B677 /* Airports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airports.swift; sourceTree = "<group>"; };
@@ -89,7 +93,8 @@
 		EB25590F22B6A176005547F5 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				EB25591022B6A205005547F5 /* Credencials.swift */,
+				EB25591022B6A205005547F5 /* Credentials.swift */,
+				EB9A6A6722B98F9600B09DB3 /* AirportResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -163,6 +168,7 @@
 				EBD324A522B5E38000F9374B /* Constants.swift */,
 				EBEED72422B6493F0025B677 /* Countries.json */,
 				EBEED72622B64BE70025B677 /* Airports.swift */,
+				EB9A6A6322B987EC00B09DB3 /* Aiports.json */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
@@ -275,6 +281,7 @@
 				EB6D8C4222B2D867002A0849 /* Assets.xcassets in Resources */,
 				EBEED72522B6493F0025B677 /* Countries.json in Resources */,
 				EB6D8C4022B2D866002A0849 /* Main.storyboard in Resources */,
+				EB9A6A6422B987EC00B09DB3 /* Aiports.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,10 +306,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB9A6A6822B98F9600B09DB3 /* AirportResponse.swift in Sources */,
 				EB6D8C3D22B2D866002A0849 /* LoginViewController.swift in Sources */,
 				EB6D8C3B22B2D866002A0849 /* AppDelegate.swift in Sources */,
 				EBEED72722B64BE70025B677 /* Airports.swift in Sources */,
-				EB25591122B6A205005547F5 /* Credencials.swift in Sources */,
+				EB25591122B6A205005547F5 /* Credentials.swift in Sources */,
 				EBEED72922B64DC60025B677 /* ScheduleViewController.swift in Sources */,
 				EB8AA45022B3A04C00A6BF3D /* NetworkClient.swift in Sources */,
 				EBD324A622B5E38000F9374B /* Constants.swift in Sources */,

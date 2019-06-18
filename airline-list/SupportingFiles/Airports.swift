@@ -8,6 +8,6 @@
 
 import Foundation
 
-enum Airports {
-  case FRA
-}
+//enum Airports {
+//  case FRA
+//}
